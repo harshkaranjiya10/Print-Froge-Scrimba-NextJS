@@ -1,4 +1,4 @@
-import type { ModelDetailPageProps } from "@/types/types";
+import type { ModelDetailPageProps } from "@/app/types/types";
 import {getModelById} from "@/app/lib/models";
 import Image from "next/image";
 import { FcLike } from "react-icons/fc";
