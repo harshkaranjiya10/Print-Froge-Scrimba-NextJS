@@ -10,9 +10,6 @@ export type Model = {
   dateAdded: string
 }
 
-export type RootLayoutProps = Readonly<{
-  children: React.ReactNode;
-}>
 
 export type ModelDetailPageProps = {
     params: Promise<{

@@ -5,7 +5,8 @@ import { Albert_Sans, Montserrat_Alternates } from "next/font/google";
 import logoImg from "@/public/Artboard1.png";
 
 import Link from "next/link";
-import RootLayoutProps from "@/app/types/types";
+import {RootLayoutProps} from "@/app/types/types";
+
 const albertsans = Albert_Sans({ subsets: ["latin"], display: "swap" });
 const montserratalternates = Montserrat_Alternates({
   subsets: ["latin"],
